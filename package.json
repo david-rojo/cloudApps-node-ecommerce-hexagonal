@@ -1,0 +1,16 @@
+{
+    "name": "hexagonal-architecture",
+    "version": "1.0.0",
+    "description": "Practice 1",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js"
+    },
+    "author": "David Rojo",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.1",
+        "mongoose": "4.11.13",
+        "bluebird": "^3.5.0"
+    }
+}
