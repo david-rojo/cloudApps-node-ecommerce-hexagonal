@@ -5,6 +5,7 @@ class ShoppingCartResponse {
         this.completed = completed;
         this.products = products;
     }
+
 }
   
 module.exports = ShoppingCartResponse;
