@@ -6,6 +6,7 @@ class ProductResponse {
         this.description = description;
         this.price = price;
     }
+
 }
   
 module.exports = ProductResponse;

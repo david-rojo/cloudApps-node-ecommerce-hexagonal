@@ -1,4 +1,5 @@
 function create(mongoose) {
+    
     const productSchema = mongoose.Schema({
         name: {
             type: String,
