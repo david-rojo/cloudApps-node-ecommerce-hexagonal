@@ -3,19 +3,19 @@ function init({
   }) {
 
     async function findById({id}) {
-      return productsRepository.findById({id});
+        return await productsRepository.findProductById({id});
     }
 
-    async function findAll({id}) {
-        return productsRepository.findAll();
+    async function findAll() {
+        return await productsRepository.findAllProducts();
     }
 
     async function deleteById({id}) {
-        return productsRepository.delete({id});
+        return await productsRepository.deleteProductById({id});
     }
 
     async function create({name, description, price}) {
-        return productsRepository.create({
+        return await productsRepository.createProduct({
             name,
             description,
             price
