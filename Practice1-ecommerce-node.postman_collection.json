@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/products/60345bf65a810cb40988f413",
+					"raw": "http://localhost:3000/api/products/60358831f64b5fa5aca01109",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -20,7 +20,7 @@
 					"path": [
 						"api",
 						"products",
-						"60345bf65a810cb40988f413"
+						"60358831f64b5fa5aca01109"
 					]
 				}
 			},
@@ -82,7 +82,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/products/60344b53c8bc36a07571d59d",
+					"raw": "http://localhost:3000/api/products/60358831f64b5fa5aca01109",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -91,7 +91,36 @@
 					"path": [
 						"api",
 						"products",
-						"60344b53c8bc36a07571d59d"
+						"60358831f64b5fa5aca01109"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create shopping cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/shoppingcarts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"shoppingcarts"
 					]
 				}
 			},
